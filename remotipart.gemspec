@@ -37,13 +37,14 @@ Gem::Specification.new do |s|
     "lib/remotipart/request_helper.rb",
     "lib/remotipart/view_helper.rb",
     "remotipart.gemspec",
+    "vendor/assets/javascripts/jquery.formdata-transport.js",
     "vendor/assets/javascripts/jquery.iframe-transport.js",
     "vendor/assets/javascripts/jquery.remotipart.js"
   ]
   s.homepage = "http://opensource.alfajango.com/remotipart/"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.15"
-  s.summary = "Remotipart is a Ruby on Rails gem enabling remote multipart forms (AJAX style file uploads) with jquery-rails."
+  s.rubygems_version = "1.8.21"
+  s.summary = "Remotipart is a Ruby on Rails gem enabling remote multipart forms (AJAX style file uploads) with jQuery."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
